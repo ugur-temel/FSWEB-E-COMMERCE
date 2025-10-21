@@ -40,7 +40,7 @@ export default function Header() {
                     <div className="relative" 
                     onMouseEnter={() => setIsDropdownOpen(true)} 
                     onMouseLeave={() => setIsDropdownOpen(false)}>
-                        <NavLink to="#" 
+                        <NavLink to="/shop" 
                         className="flex items-center gap-1 hover:text-blue-500" activeClassName="text-[#252B42]">
                             Shop <ChevronDown size={16}/></NavLink>
                             {isDropdownOpen && <div className="absolute left-0 top-full mt-1 z-50 bg-[#FAFAFA]"> <Dropdown/> </div>}
